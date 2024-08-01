@@ -68,13 +68,16 @@ label{
 
 }
 label{
-    width: 150px;
+    width: 150p;
+}
+.day{
+    margin-left: 10px;
 }
 .switch {
     position: relative;
     display: inline-block;
     left : 5px;
-    width: 47px;
+    width: 40px;
     height: 24px;
     margin:5px;
  }
@@ -114,9 +117,9 @@ label{
   }
   
   input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
+    -webkit-transform: translateX(22px);
+    -ms-transform: translateX(22px);
+    transform: translateX(22px);
   }
   
   /* Rounded sliders */

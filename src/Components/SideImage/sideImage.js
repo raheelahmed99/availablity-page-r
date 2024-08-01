@@ -32,11 +32,11 @@ const SideImage = () => {
           <div className='selection'>
             <form>
               <div className="timeSeletion">
-                <label for="mon-time">
                   <label class="switch">
                   <input type="checkbox" checked/>
                   <span class="slider round"></span>
-                </label> Monday</label>
+                </label>
+                <label for="mon-time" className="day">Monday</label>
                 <select name='mon-time' id='time' multiple >
                   <option>09:00 AM - 12:00 PM</option>
                   <option>12:00 AM - 03:00 PM</option>
@@ -44,11 +44,11 @@ const SideImage = () => {
                 </select>
               </div>
               <div className="timeSeletion">
-                <label for="tue-time">
                 <label class="switch">
                   <input type="checkbox" checked/>
                   <span class="slider round"></span>
                   </label> 
+                  <label for="tue-time" className="day">
                   Tuesday</label>
                 <select name='tue-time' id='time' multiple >
                   <option>09:00 AM - 12:00 PM</option>
@@ -58,11 +58,11 @@ const SideImage = () => {
               </div>
 
               <div className="timeSeletion">
-                <label for="wed-time">
                 <label class="switch">
                   <input type="checkbox" checked/>
                   <span class="slider round"></span>
-                  </label> 
+                  </label>
+                  <label for="wed-time" className="day"> 
                   Wednesday</label>
                 <select name='wed-time' id='time' multiple >
                   <option>09:00 AM - 12:00 PM</option>
@@ -71,23 +71,23 @@ const SideImage = () => {
                 </select>
               </div>
               <div className="timeSeletion">
-                <label for="thr-time">
                 <label class="switch">
                   <input type="checkbox" checked/>
                   <span class="slider round"></span>
-                  </label>      Thursday</label>
-                <select name='thr-time' className="select" id='time' multiple >
+                  </label>
+                  <label for="thu-time" className="day">Thursday</label>
+                <select name='thu-time' className="select" id='time' multiple >
                   <option>09:00 AM - 12:00 PM</option>
                   <option>12:00 AM - 03:00 PM</option>
                   <option>03:00 AM - 06:00 PM</option>
                 </select>
               </div>
-              <div className="timeSeletion">
-                  <label for="fri-time">
+              <div className="timeSeletion">  
                 <label class="switch">
                   <input type="checkbox"/>
                   <span class="slider round"></span>
-                  </label> 
+                  </label>
+                  <label for="fri-time" className="day">
                   Friday</label>
                   <p className="select">- Not Available</p>
               </div>
